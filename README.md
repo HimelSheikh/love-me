@@ -1,1 +1,1 @@
-# love-me
+love yourself than myself
