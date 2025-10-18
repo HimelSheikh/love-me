@@ -107,7 +107,7 @@ for reminder in range(1, 7):
 # Program 3: Typing Animation
 message = "Welcome to the Game!"
 for ch in message:
-    print(ch, end='', flush=True)
+    print(ch)
 
 #Question: Stop searching when “milk” is found in the inventory.
 # Program 4: Item Search in Warehouse
@@ -912,4 +912,5 @@ plt.ylabel('F(x)')
 plt.grid(True)
 plt.legend()
 plt.show()
+
 
