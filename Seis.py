@@ -877,6 +877,8 @@ print(f"Median: {median_income}  <-- Appropriate due to outlier")
 
 #2. Geometric / Poisson Approximation for Bulbs
 # Geometric: P(Y <= 5) = 1 - (1-p)^5
+n=5
+p=0.03
 prob_within_5 = 1 - (1 - p)**n
 print(f"Probability first defective within 5 bulbs: {prob_within_5:.4f}")
 
@@ -910,3 +912,4 @@ plt.ylabel('F(x)')
 plt.grid(True)
 plt.legend()
 plt.show()
+
